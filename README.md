@@ -13,15 +13,26 @@ BioPro is my stage 2 task submission for the HNG10 internship. This mobile app s
 
 ## Features
 
-- List some key features of your app here.
+- Home screen showing the prefilled CV details:
+  * Full Name
+  * Slack Username
+  * Github Handle
+  * Brief Personal Bio
+  * An 'Edit CV' Button
+- Edit Page
+  * Input Text Fields
+  * A 'Done' Button
+    
 
 ## Getting Started
 
-Provide a step-by-step guide on how to get started with your Flutter app. Include installation instructions and any prerequisites.
+The following instructions will guild you on how to set up and use the app on your device.
 
 ### Prerequisites
 
-List any software, tools, or libraries that users need to have installed before they can use your app.
+BioPro was built with the flutter (version 3.13.1) framework of the Dart programming language. It also has a SDK of '>=3.1.0 <4.0.0' however, there are no external dependencies. 
+
+To succcessfully clone this project, ensure you have the flutter version 3.0 or greater and a SDK greater than 3.0 else it will lead to errors while running your dependencies.
 
 ### Installation
 
