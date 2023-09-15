@@ -1,6 +1,5 @@
-import 'package:biopro/constants.dart';
+import 'package:biopro/constants/text_constant.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 class CustomTextFormField extends StatelessWidget {
   const CustomTextFormField({
@@ -30,35 +29,35 @@ class CustomTextFormField extends StatelessWidget {
         // hintText: 'Full Name',
         // hintStyle: const TextStyle(color: Colors.grey, fontWeight: FontWeight.w500),
         labelText: fieldLabel,
-        labelStyle: TextStyle(
-            color: Colors.white, fontWeight: FontWeight.w500, fontSize: 17.0),
-        focusedErrorBorder: OutlineInputBorder(
+        labelStyle: const TextStyle(
+            color: Colors.white24, fontWeight: FontWeight.w500, fontSize: 17.0),
+        focusedErrorBorder: const OutlineInputBorder(
             borderRadius: BorderRadius.all(Radius.circular(10)),
             borderSide: BorderSide(
                 // style: BorderStyle.none,
                 color: Colors.indigo,
                 width: 2.0)),
-        errorBorder: OutlineInputBorder(
+        errorBorder: const OutlineInputBorder(
             borderRadius: BorderRadius.all(Radius.circular(10)),
             borderSide: BorderSide(
                 // style: BorderStyle.none,
                 color: Colors.indigo,
                 width: 2.0)),
         disabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.all(Radius.circular(10)),
+          borderRadius: const BorderRadius.all(Radius.circular(10)),
           borderSide: BorderSide(
               // style: BorderStyle.none,
               color: Colors.indigo.shade300,
               width: 2.0),
         ),
-        enabledBorder: OutlineInputBorder(
+        enabledBorder: const OutlineInputBorder(
           borderRadius: BorderRadius.all(Radius.circular(10)),
           borderSide: BorderSide(
               // style: BorderStyle.none,
               color: Colors.indigo,
               width: 2.0),
         ),
-        focusedBorder: OutlineInputBorder(
+        focusedBorder: const OutlineInputBorder(
             borderRadius: BorderRadius.all(Radius.circular(10)),
             borderSide: BorderSide(color: Colors.indigo, width: 2.0)),
         filled: true,
@@ -69,12 +68,24 @@ class CustomTextFormField extends StatelessWidget {
       enabled: enabled,
       validator: (text) {
         if (text == null || text.isEmpty) {
-          return "Text field can\'t be empty";
+          return "Text field can't be empty";
         }
-        if (text.length < 4) {
-          return "please enter a valid response";
+        if (text.length < 6) {
+          return "input should be more than 6 characters";
         }
       },
+    );
+  }
+}
+
+class HintText extends StatelessWidget {
+  const HintText({super.key, this.text});
+  final String? text;
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      text!,
+      style: kTitleBold,
     );
   }
 }
