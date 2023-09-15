@@ -9,7 +9,7 @@ BioPro is my stage 2 task submission for the HNG10 internship. This mobile app s
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Usage](#usage)
-- [App Testing](#testing)
+- [App Testing](#app-testing)
 
 ## Features
 
@@ -32,7 +32,7 @@ The following instructions will guide you on how to set up and use this app on y
 
 BioPro was built with the flutter (version 3.13.1) framework of the Dart programming language. It also has a SDK of '>=3.1.0 <4.0.0' however, there are no external dependencies. 
 
-To succcessfully clone this project, ensure you have the flutter version 3.0 or greater and a SDK greater than 3.0 else it will lead to errors while running your dependencies.
+To succcessfully clone this project, ensure you have the flutter version 3.0 or greater and a SDK greater than 3.0 else it will lead to errors while getting your dependencies.
 
 ### Installation
 
@@ -54,12 +54,14 @@ To succcessfully clone this project, ensure you have the flutter version 3.0 or 
 
 This app can be tested using Appetize.io, an online emulator designed for testing mobile apps. To test this app using Appetize, follow the instructions below.
 
-1. Click the link below and you will be redirected to th...
+1. Click the link below and you will be redirected to the interface for testing this app
+
+   https://appetize.io/app/o2mhqwi5ut2stefiytqb4ifara?device=pixel4&osVersion=11.0&scale=75
    
-2. upon the emulator loading, select the android version...
+3. upon the emulator loading, select the options you prefer
    
-3. click on play
+4. press play
    
-4. interact with app 
+5. interact with app 
 
 
