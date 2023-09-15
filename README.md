@@ -26,7 +26,7 @@ BioPro is my stage 2 task submission for the HNG10 internship. This mobile app s
 
 ## Getting Started
 
-The following instructions will guild you on how to set up and use the app on your device.
+The following instructions will guide you on how to set up and use this app on your device.
 
 ### Prerequisites
 
@@ -36,11 +36,19 @@ To succcessfully clone this project, ensure you have the flutter version 3.0 or 
 
 ### Installation
 
-A step-by-step guide on how to install and set up your app. Include code snippets if necessary.
+1. Clone this repository using the link:
+   https://github.com/OlatunjI-Ruth/BioPro.git
+2. Click on the pub get that appears at the top of your IDE or enter the 'flutter pub get' in your terminal, to install the dependencies.
+3. Select your andriod device or IOS emilator and click on the run icon at the top of your IDE.
+4. Ensure developer mode is enabled on your physical devise if you are using one.
+5. Allow some seconds for the app to build on the device.
+6. Interact with the application.
 
 ## Usage
 
-Show users how to use your app with examples and screenshots if possible. Explain the core functionality and any advanced features.
+1. The home screen comes with my prefilled details which can be edited by tapping on the 'Edit CV' button.
+2. You will be redirected to the input screen where you can input your details. All inputed data should be more than or equal to 6 characters long, else an alert dialog will request that the fields be properly filled. No field can be left unfilled also.
+3. Upon currectly inputing your details, click the done button. This pops the input screen and your details will be displayed automatically on the home screen.
 
 ## App Testing
 
