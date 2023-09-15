@@ -42,7 +42,7 @@ class InputView extends StatelessWidget {
               height: 10.0,
             ),
             CustomTextFormField(
-              fieldLabel: 'GitHub Profile',
+              fieldLabel: 'GitHub Handle',
               textEditingController: gitHubNameController,
             ),
             const SizedBox(
@@ -66,7 +66,7 @@ class InputView extends StatelessWidget {
                       UserInfo(
                           fullName: fullNameController!.text,
                           slackName: slackNameController!.text,
-                          gitHubName: gitHubNameController!.text,
+                          gitHubHandle: gitHubNameController!.text,
                           personalBio: personalBioController!.text));
                 } else {
                   showDialog(

@@ -71,7 +71,7 @@ class CustomTextFormField extends StatelessWidget {
           return "Text field can't be empty";
         }
         if (text.length < 6) {
-          return "input should be more than 6 characters";
+          return "input should be 6 characters long or more";
         }
       },
     );

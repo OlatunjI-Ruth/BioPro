@@ -1,7 +1,7 @@
 import 'package:biopro/constants/text_constant.dart';
 import 'package:biopro/model/user_model.dart';
 import 'package:flutter/material.dart';
-import '../components/reuseable_card.dart';
+import '../components/reusable_card.dart';
 import 'package:biopro/components/custom_textformfield.dart';
 import 'input_view.dart';
 
@@ -17,11 +17,11 @@ class HomeView extends StatefulWidget {
 UserInfo? userInfo = UserInfo(
     fullName: 'Ruth Olatunji',
     slackName: 'Tech ORB',
-    gitHubName: 'OlatunjI-Ruth',
+    gitHubHandle: 'OlatunjI-Ruth',
     personalBio:
         "I am a dedicated Flutter developer with a passion for creating stunning,"
-        " cross-platform mobile applications. "
-        "With 7 months of experience"
+        " cross-platform mobile applications."
+        " With 7 months of experience"
         " in the world of mobile app development, I'm on a mission to leverage"
         " the power of Flutter and Fireabse to bring innovative ideas to life.");
 
@@ -65,8 +65,8 @@ class _HomeViewState extends State<HomeView> {
             const SizedBox(
               height: 10.0,
             ),
-            const HintText(text: 'GitHub profile'),
-            ReusableCard(title: userInfo!.gitHubName),
+            const HintText(text: 'GitHub Handle'),
+            ReusableCard(title: userInfo!.gitHubHandle),
             const SizedBox(
               height: 10.0,
             ),
