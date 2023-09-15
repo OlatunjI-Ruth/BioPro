@@ -1,16 +1,65 @@
-# biopro
+# BioPro
 
-A new Flutter project.
+BioPro is my stage 2 task submission for the HNG10 internship. This mobile app showcases personal and professional details just like a CV. It consist of an homepage which displays the required information and a second page where the details can be edited.
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [App Testing](#testing)
+
+## Features
+
+- Home screen showing the prefilled CV details:
+  * Full Name
+  * Slack Username
+  * Github Handle
+  * Brief Personal Bio
+  * An 'Edit CV' Button
+- Edit Page
+  * Input Text Fields
+  * A 'Done' Button
+    
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The following instructions will guide you on how to set up and use this app on your device.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+BioPro was built with the flutter (version 3.13.1) framework of the Dart programming language. It also has a SDK of '>=3.1.0 <4.0.0' however, there are no external dependencies. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To succcessfully clone this project, ensure you have the flutter version 3.0 or greater and a SDK greater than 3.0 else it will lead to errors while running your dependencies.
+
+### Installation
+
+1. Clone this repository using the link:
+   https://github.com/OlatunjI-Ruth/BioPro.git
+2. Click on the pub get that appears at the top of your IDE or enter the 'flutter pub get' in your terminal, to install the dependencies.
+3. Select your andriod device or IOS emilator and click on the run icon at the top of your IDE.
+4. Ensure developer mode is enabled on your physical devise if you are using one.
+5. Allow some seconds for the app to build on the device.
+6. Interact with the application.
+
+## Usage
+
+1. The home screen comes with my prefilled details which can be edited by tapping on the 'Edit CV' button.
+2. You will be redirected to the input screen where you can input your details. All inputed data should be more than or equal to 6 characters long, else an alert dialog will request that the fields be properly filled. No field can be left unfilled also.
+3. Upon currectly inputing your details, click the done button. This pops the input screen and your details will be displayed automatically on the home screen.
+
+## App Testing
+
+This app can be tested using Appetize.io, an online emulator designed for testing mobile apps. To test this app using Appetize, follow the instructions below.
+
+1. Click the link below and you will be redirected to th...
+   
+2. upon the emulator loading, select the android version...
+   
+3. click on play
+   
+4. interact with app 
+
+
